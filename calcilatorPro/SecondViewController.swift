@@ -42,8 +42,9 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        var myItems = Int(text1)! / Int(textField3.message!)!
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath as IndexPath) as! UITableViewCell
-        cell.textLabel?.text = String(indexPath.row)
+        cell.textLabel?.text = "\(String(myItems)[indexPath.row])"
         return cell
     }
 

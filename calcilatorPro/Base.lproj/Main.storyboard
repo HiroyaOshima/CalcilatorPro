@@ -221,7 +221,7 @@
                     </view>
                     <connections>
                         <outlet property="label1" destination="eaU-yS-u14" id="pS9-EG-ae3"/>
-                        <outlet property="memoTableVIew" destination="rpb-xq-eW3" id="mkZ-nb-OTH"/>
+                        <outlet property="memoTableView" destination="rpb-xq-eW3" id="H00-Qb-OAJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XfJ-G8-2Mi" userLabel="First Responder" sceneMemberID="firstResponder"/>

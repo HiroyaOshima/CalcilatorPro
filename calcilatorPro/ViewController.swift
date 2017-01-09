@@ -23,10 +23,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        textField2.text = textField3.message
-        
-        textField3.message =  "message"
+
         
     }
     
@@ -38,6 +35,8 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         var viewcontroller2 = segue.destination as! SecondViewController
         viewcontroller2.text1 = textField.text!
+        
+        textField3.message = textField2.text!
     }
     
     
