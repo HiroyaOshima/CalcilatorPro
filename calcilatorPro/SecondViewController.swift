@@ -29,6 +29,13 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
         
         memoTableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         
+        //datasourceの設定
+        memoTableView.dataSource = self
+        
+        //delegateの設定
+        memoTableView.delegate = self 
+        
+        
         var message = textField3.message
         
         row = row + Int(message!)!
