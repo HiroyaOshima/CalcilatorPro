@@ -56,7 +56,7 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
         cell.textLabel?.text = "\(String(myItems))"
         
         //変数myItems1へmyItems代入
-        Int(myItems1) = myItems
+        myItems1.add(myItems)
         return cell
     }
     
@@ -70,6 +70,8 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
             print("削除")
             //指定されたセルの削除
             myItems1.removeObject(at:indexPath.row)
+            //rowを減らす
+            row = row - 1 
             //tableviewを再読み込み
             memoTableView.reloadData()
             
