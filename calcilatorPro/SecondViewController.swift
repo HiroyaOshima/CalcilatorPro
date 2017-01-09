@@ -18,6 +18,7 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
     var textField3:AppDelegate = UIApplication.shared.delegate as! AppDelegate
     
     
+    
     @IBOutlet weak var memoTableView: UITableView!
     
 
@@ -44,8 +45,25 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         var myItems = Int(text1)! / Int(textField3.message!)!
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath as IndexPath) as! UITableViewCell
-        cell.textLabel?.text = "\(String(myItems)[indexPath.row])"
+        cell.textLabel?.text = "\(String(myItems))"
         return cell
+    }
+    
+    //データを削除するメソッド①
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    //データを削除するメソッド②
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        var myItems = Int(text1)! / Int(textField3.message!)!
+        if editingStyle == UITableViewCellEditingStyle.delete{
+            print("削除")
+            //指定されたセルの削除
+            myItems.removeobject(at:indexPath.row)
+            //tableviewを再読み込み
+            memoTableView.reloadData()
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {
