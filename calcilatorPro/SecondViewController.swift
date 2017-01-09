@@ -10,7 +10,7 @@ import UIKit
 
 class SecondViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
     
-    //2017年1月9日変更
+    
     @IBOutlet weak var label1: UILabel!
     var text1:String = ""
     var text2:String = ""

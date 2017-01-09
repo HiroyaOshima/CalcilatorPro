@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    //2017年1月9日変更
     @IBOutlet weak var textField: UITextField!
     
     
