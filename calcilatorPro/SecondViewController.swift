@@ -16,6 +16,7 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
     var text2:String = ""
     var row:Int = 1
     var textField3:AppDelegate = UIApplication.shared.delegate as! AppDelegate
+    var myItems1:NSMutableArray = []
     
     
     
@@ -33,7 +34,7 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
         memoTableView.dataSource = self
         
         //delegateの設定
-        memoTableView.delegate = self 
+        memoTableView.delegate = self
         
         
         var message = textField3.message
@@ -53,6 +54,9 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
         var myItems = Int(text1)! / Int(textField3.message!)!
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath as IndexPath) as! UITableViewCell
         cell.textLabel?.text = "\(String(myItems))"
+        
+        //変数myItems1へmyItems代入
+        Int(myItems1) = myItems
         return cell
     }
     
@@ -62,11 +66,10 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
     }
     //データを削除するメソッド②
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        var myItems = Int(text1)! / Int(textField3.message!)!
         if editingStyle == UITableViewCellEditingStyle.delete{
             print("削除")
             //指定されたセルの削除
-            myItems.removeobject(at:indexPath.row)
+            myItems1.removeObject(at:indexPath.row)
             //tableviewを再読み込み
             memoTableView.reloadData()
             
