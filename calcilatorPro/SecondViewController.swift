@@ -79,8 +79,8 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
             row = row - 1
             //セルを一つ減らすとlabel2に（合計金額/人数）を加算
             var myItems = Int(text1)! / Int(textField3.message!)!
-            var changeLabel = String(describing: label2.text)
-            changeLabel = changeLabel + String(myItems)
+            var changeLabel = Int(label2.text!)
+            changeLabel = changeLabel! + myItems
             //tableviewを再読み込み
             memoTableView.reloadData()
             
