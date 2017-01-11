@@ -221,6 +221,7 @@
                     </view>
                     <connections>
                         <outlet property="label1" destination="eaU-yS-u14" id="pS9-EG-ae3"/>
+                        <outlet property="label2" destination="ah1-gx-SJ7" id="jm7-kp-ZR5"/>
                         <outlet property="memoTableView" destination="rpb-xq-eW3" id="H00-Qb-OAJ"/>
                     </connections>
                 </viewController>
