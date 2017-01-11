@@ -18,15 +18,16 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
     var textField3:AppDelegate = UIApplication.shared.delegate as! AppDelegate
     var myItems1:NSMutableArray = []
     var changeLabel = 0
+    var low = 0
     
     
     
     @IBOutlet weak var label2: UILabel!
     
-    
-    
-    
     @IBOutlet weak var memoTableView: UITableView!
+    
+    
+    @IBOutlet weak var label3: UILabel!
     
 
     override func viewDidLoad() {
@@ -46,6 +47,11 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
         var message = textField3.message
         
         row = row + Int(message!)!
+        
+        label3.text = textField3.message
+        
+        low = low + Int(label3.text!)!
+        
         memoTableView.reloadData()
         
 
@@ -83,6 +89,10 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
             var changelabel = Int(label2.text!)
             changeLabel = changeLabel + myItems
             label2.text = String(changeLabel)
+            //セルを一つ減らすとlabel3で人数を一人減らす
+            low = low - 1
+            label3.text = String(low)
+
             //tableviewを再読み込み
             memoTableView.reloadData()
             
