@@ -17,7 +17,6 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
     var row:Int = 0
     var textField3:AppDelegate = UIApplication.shared.delegate as! AppDelegate
     var myItems1:NSMutableArray = []
-    var changeLabel = 0
     
     
     
@@ -79,9 +78,9 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
             //rowを減らす
             row = row - 1
             //セルを一つ減らすとlabel2に（合計金額/人数）を加算
-            var changeLabel = Int(label2.text!)
             var myItems = Int(text1)! / Int(textField3.message!)!
-            changeLabel = changeLabel! + myItems
+            var changeLabel = String(describing: label2.text)
+            changeLabel = changeLabel + String(myItems)
             //tableviewを再読み込み
             memoTableView.reloadData()
             
