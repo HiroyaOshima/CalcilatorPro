@@ -45,6 +45,9 @@ class ViewController: UIViewController {
         self.view.endEditing(true)
     }
     
+    @IBAction func backToTop(segue:UIStoryboardSegue){
+        
+    }
     
 }
 
