@@ -91,7 +91,6 @@
                                     <color key="titleColor" red="0.99604679668584695" green="0.95553807752939823" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IJR-qt-s8Q"/>
                                     <segue destination="wzd-Gd-w4q" kind="show" id="9RA-0G-okA"/>
                                 </connections>
                             </button>

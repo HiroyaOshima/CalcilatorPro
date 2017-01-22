@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BA115A241E0667EB00DAD240"
-               BuildableName = "calcilatorPro.app"
-               BlueprintName = "calcilatorPro"
-               ReferencedContainer = "container:calcilatorPro.xcodeproj">
+               BuildableName = "WARISAKE.app"
+               BlueprintName = "WARISAKE"
+               ReferencedContainer = "container:WARISAKE.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "BA115A381E0667EC00DAD240"
                BuildableName = "calcilatorProTests.xctest"
                BlueprintName = "calcilatorProTests"
-               ReferencedContainer = "container:calcilatorPro.xcodeproj">
+               ReferencedContainer = "container:WARISAKE.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "BA115A431E0667EC00DAD240"
                BuildableName = "calcilatorProUITests.xctest"
                BlueprintName = "calcilatorProUITests"
-               ReferencedContainer = "container:calcilatorPro.xcodeproj">
+               ReferencedContainer = "container:WARISAKE.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA115A241E0667EB00DAD240"
-            BuildableName = "calcilatorPro.app"
-            BlueprintName = "calcilatorPro"
-            ReferencedContainer = "container:calcilatorPro.xcodeproj">
+            BuildableName = "WARISAKE.app"
+            BlueprintName = "WARISAKE"
+            ReferencedContainer = "container:WARISAKE.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA115A241E0667EB00DAD240"
-            BuildableName = "calcilatorPro.app"
-            BlueprintName = "calcilatorPro"
-            ReferencedContainer = "container:calcilatorPro.xcodeproj">
+            BuildableName = "WARISAKE.app"
+            BlueprintName = "WARISAKE"
+            ReferencedContainer = "container:WARISAKE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA115A241E0667EB00DAD240"
-            BuildableName = "calcilatorPro.app"
-            BlueprintName = "calcilatorPro"
-            ReferencedContainer = "container:calcilatorPro.xcodeproj">
+            BuildableName = "WARISAKE.app"
+            BlueprintName = "WARISAKE"
+            ReferencedContainer = "container:WARISAKE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

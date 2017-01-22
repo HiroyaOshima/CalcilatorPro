@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BA115A251E0667EC00DAD240 /* calcilatorPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calcilatorPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA115A251E0667EC00DAD240 /* WARISAKE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WARISAKE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA115A2A1E0667EC00DAD240 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA115A2D1E0667EC00DAD240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA115A2F1E0667EC00DAD240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,9 +79,9 @@
 		BA115A1C1E0667EB00DAD240 = {
 			isa = PBXGroup;
 			children = (
-				BA115A271E0667EC00DAD240 /* calcilatorPro */,
-				BA115A3C1E0667EC00DAD240 /* calcilatorProTests */,
-				BA115A471E0667EC00DAD240 /* calcilatorProUITests */,
+				BA115A271E0667EC00DAD240 /* calculatorPro */,
+				BA115A3C1E0667EC00DAD240 /* calculatorProTests */,
+				BA115A471E0667EC00DAD240 /* calculatorProUITests */,
 				BA115A261E0667EC00DAD240 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		BA115A261E0667EC00DAD240 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA115A251E0667EC00DAD240 /* calcilatorPro.app */,
+				BA115A251E0667EC00DAD240 /* WARISAKE.app */,
 				BA115A391E0667EC00DAD240 /* calcilatorProTests.xctest */,
 				BA115A441E0667EC00DAD240 /* calcilatorProUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA115A271E0667EC00DAD240 /* calcilatorPro */ = {
+		BA115A271E0667EC00DAD240 /* calculatorPro */ = {
 			isa = PBXGroup;
 			children = (
 				BA64C9011E1D1A7A00855D63 /* AppDelegate.swift */,
@@ -107,33 +107,36 @@
 				BA115A311E0667EC00DAD240 /* LaunchScreen.storyboard */,
 				BA115A341E0667EC00DAD240 /* Info.plist */,
 			);
+			name = calculatorPro;
 			path = calcilatorPro;
 			sourceTree = "<group>";
 		};
-		BA115A3C1E0667EC00DAD240 /* calcilatorProTests */ = {
+		BA115A3C1E0667EC00DAD240 /* calculatorProTests */ = {
 			isa = PBXGroup;
 			children = (
 				BA115A3D1E0667EC00DAD240 /* calcilatorProTests.swift */,
 				BA115A3F1E0667EC00DAD240 /* Info.plist */,
 			);
+			name = calculatorProTests;
 			path = calcilatorProTests;
 			sourceTree = "<group>";
 		};
-		BA115A471E0667EC00DAD240 /* calcilatorProUITests */ = {
+		BA115A471E0667EC00DAD240 /* calculatorProUITests */ = {
 			isa = PBXGroup;
 			children = (
 				BA115A481E0667EC00DAD240 /* calcilatorProUITests.swift */,
 				BA115A4A1E0667EC00DAD240 /* Info.plist */,
 			);
+			name = calculatorProUITests;
 			path = calcilatorProUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BA115A241E0667EB00DAD240 /* calcilatorPro */ = {
+		BA115A241E0667EB00DAD240 /* WARISAKE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA115A4D1E0667EC00DAD240 /* Build configuration list for PBXNativeTarget "calcilatorPro" */;
+			buildConfigurationList = BA115A4D1E0667EC00DAD240 /* Build configuration list for PBXNativeTarget "WARISAKE" */;
 			buildPhases = (
 				BA115A211E0667EB00DAD240 /* Sources */,
 				BA115A221E0667EB00DAD240 /* Frameworks */,
@@ -143,9 +146,9 @@
 			);
 			dependencies = (
 			);
-			name = calcilatorPro;
+			name = WARISAKE;
 			productName = calcilatorPro;
-			productReference = BA115A251E0667EC00DAD240 /* calcilatorPro.app */;
+			productReference = BA115A251E0667EC00DAD240 /* WARISAKE.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BA115A381E0667EC00DAD240 /* calcilatorProTests */ = {
@@ -211,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BA115A201E0667EB00DAD240 /* Build configuration list for PBXProject "calcilatorPro" */;
+			buildConfigurationList = BA115A201E0667EB00DAD240 /* Build configuration list for PBXProject "WARISAKE" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -224,7 +227,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA115A241E0667EB00DAD240 /* calcilatorPro */,
+				BA115A241E0667EB00DAD240 /* WARISAKE */,
 				BA115A381E0667EC00DAD240 /* calcilatorProTests */,
 				BA115A431E0667EC00DAD240 /* calcilatorProUITests */,
 			);
@@ -290,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		BA115A3B1E0667EC00DAD240 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BA115A241E0667EB00DAD240 /* calcilatorPro */;
+			target = BA115A241E0667EB00DAD240 /* WARISAKE */;
 			targetProxy = BA115A3A1E0667EC00DAD240 /* PBXContainerItemProxy */;
 		};
 		BA115A461E0667EC00DAD240 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BA115A241E0667EB00DAD240 /* calcilatorPro */;
+			target = BA115A241E0667EB00DAD240 /* WARISAKE */;
 			targetProxy = BA115A451E0667EC00DAD240 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -420,7 +423,7 @@
 				DEVELOPMENT_TEAM = ZC9946ZJCS;
 				INFOPLIST_FILE = calcilatorPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eava.com.calcilatorPro;
+				PRODUCT_BUNDLE_IDENTIFIER = eava.com.WARISAKE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -433,7 +436,7 @@
 				DEVELOPMENT_TEAM = ZC9946ZJCS;
 				INFOPLIST_FILE = calcilatorPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eava.com.calcilatorPro;
+				PRODUCT_BUNDLE_IDENTIFIER = eava.com.WARISAKE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -496,7 +499,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA115A201E0667EB00DAD240 /* Build configuration list for PBXProject "calcilatorPro" */ = {
+		BA115A201E0667EB00DAD240 /* Build configuration list for PBXProject "WARISAKE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA115A4B1E0667EC00DAD240 /* Debug */,
@@ -505,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA115A4D1E0667EC00DAD240 /* Build configuration list for PBXNativeTarget "calcilatorPro" */ = {
+		BA115A4D1E0667EC00DAD240 /* Build configuration list for PBXNativeTarget "WARISAKE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA115A4E1E0667EC00DAD240 /* Debug */,

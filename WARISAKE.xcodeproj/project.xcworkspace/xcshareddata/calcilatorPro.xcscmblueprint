@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7F64BD139194795B88938F91073EA24CD3AACC2A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7F64BD139194795B88938F91073EA24CD3AACC2A" : 9223372036854775807,
+    "4C71A4776C7680D061BF7DCD13C9480F30912DEC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7681C1F7-A76B-446A-B475-F3279069769E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7F64BD139194795B88938F91073EA24CD3AACC2A" : "calcilatorPro%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC2\/",
+    "4C71A4776C7680D061BF7DCD13C9480F30912DEC" : "test\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "calcilatorPro",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "calcilatorPro.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:HiroyaOshima\/warikan.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4C71A4776C7680D061BF7DCD13C9480F30912DEC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HiroyaOshima\/warikan.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F64BD139194795B88938F91073EA24CD3AACC2A"
+    }
+  ]
+}
